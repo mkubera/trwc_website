@@ -14,7 +14,7 @@
    viewBox="0 0 600.00001 362.00001"
    id="svg4223"
    version="1.1"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
    sodipodi:docname="rain_logo.svg">
   <defs
      id="defs4225" />
@@ -25,8 +25,8 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.7"
-     inkscape:cx="271.01213"
+     inkscape:zoom="0.98994949"
+     inkscape:cx="323.73229"
      inkscape:cy="150.24065"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -34,10 +34,10 @@
      units="px"
      borderlayer="true"
      inkscape:showpageshadow="false"
-     inkscape:window-width="1600"
-     inkscape:window-height="843"
-     inkscape:window-x="0"
-     inkscape:window-y="33"
+     inkscape:window-width="1366"
+     inkscape:window-height="715"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1" />
   <metadata
      id="metadata4228">
@@ -56,6 +56,24 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-690.36216)">
+    <rect
+       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.00000024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:23.99999989, 5.99999996, 2.99999999, 5.99999996;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect862-6"
+       width="600"
+       height="97.497612"
+       x="0"
+       y="810.57031"
+       rx="0"
+       ry="0" />
+    <rect
+       style="opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.00000024;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:24.00000002, 5.99999999, 3, 5.99999999;stroke-dashoffset:0;stroke-opacity:1"
+       id="rect862"
+       width="600"
+       height="217.70576"
+       x="0"
+       y="690.36218"
+       rx="16.162441"
+       ry="16.162441" />
     <!-- <rect
        style="opacity:1;fill:#111111;fill-opacity:1;stroke:none;stroke-width:2;stroke-miterlimit:2;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
        id="rect4785"
