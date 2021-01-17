@@ -10,6 +10,9 @@
 
     <link rel="canonical" href="https://therainwillco.me"/>
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400&display=swap" rel="stylesheet">
+
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@trwc_stories">
     <meta name="twitter:title" content="TheRainWillCome">
@@ -19,19 +22,24 @@
 
     <style media="screen">
       *, *:after, *:before {box-sizing: border-box;}
-      body { text-align: center; font-family: sans-serif; }
+      html{font-size:62.5%;}
+      body { text-align: center; font-family: 'Raleway', sans-serif; }
       a {color: #000; text-decoration: none;}
-      a:hover {color: #777; text-decoration: underline;}
+      a:hover {color: #777;}
       img{max-width: 100%;}
-      h3{width: 200px; margin: 0 auto; padding: 5px 0; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;color: #555; font-weight: 400; letter-spacing: 1px;}
       #Works a:after, footer a:after{
         content: url(https://en.wikipedia.org/w/skins/Vector/resources/skins.vector.styles/images/external-link-ltr-icon.svg?b4b84);
         padding-left: 2px;
         display: inline;
       }
-      .sm{display: inline; font-family: monospace; font-size: 10px;}
       ul{padding:0;list-style-type: none;}
       li{margin-bottom: 10px;}
+      .chapter{margin-top: 40px; margin-bottom: 50px}
+      .chapter h2{color: #555; font-size: 2.4rem; font-weight: 400;}
+      .chapter h3, footer h3{width: 200px; margin: 0 auto 2rem auto; padding: 5px 0; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;color: #555; font-size: 2.2rem; font-weight: 400; letter-spacing: 1px; }
+      .chapter ul li, footer ul li{font-size: 2rem; font-weight: 200; color:#000;}
+      .chapter h3 .sm{display: inline; font-family: monospace; font-size: 1.8rem; font-weight: 200; color: #444;}
+      .chapter li .sm{font-size: 1.6rem;}
     </style>
   </head>
 
@@ -53,28 +61,31 @@
               loading="lazy">
           </picture>
         </section>
-        <section style="margin-top: 40px; margin-bottom: 50px">
-          <h2 style="color: #555; font-size: 18px; font-weight: 400;">
+
+        <section class="chapter">
+          <h2>
             silence the mind,<br>
             and the heart will sing
           </h2>
         </section>
       </header>
 
-      <section id="Works" style="margin-top: 40px; margin-bottom: 50px">
+      <section id="Works" class="chapter">
         <h3>works</h3>
-        <p>
-          <a href="https://gumroad.com/therainwillcome" target="_blank" rel="noopener noreferrer">Books</a>
-        </p>
-        <p>
-          <a href="https://tapas.io/therainwillcome" target="_blank" rel="noopener noreferrer">Comics</a>
-        </p>
-        <p>
-          <a href="https://thewritelaunch.com/2017/08/a-boy-who-was-an-orca" target="_blank" rel="noopener noreferrer">A Boy Who Was an Orca</a> <span class="sm">[a short story]</span>
-        </p>
+        <ul>
+          <li>
+            <a href="https://gumroad.com/therainwillcome" target="_blank" rel="noopener noreferrer">Books</a>
+          </li>
+          <li>
+            <a href="https://tapas.io/therainwillcome" target="_blank" rel="noopener noreferrer">Comics</a>
+          </li>
+          <li>
+            <a href="https://thewritelaunch.com/2017/08/a-boy-who-was-an-orca" target="_blank" rel="noopener noreferrer">A Boy Who Was an Orca</a> <span class="sm">[a short story]</span>
+          </li>
+        </ul>
       </section>
 
-      <section id="ShortFormsPL" style="margin-top: 40px; margin-bottom: 50px" lang="pl">
+      <section id="ShortFormsPL" class="chapter" lang="pl">
         <h3>krótkie formy <span class="sm">(PL)</span></h3>
         <ul>
           <li><a href="krotkie_formy/jan_zgorykrwiaplynacy.txt">Jan Zgórykrwiąpłynący</a> <span class="sm">[mini-opowiadanie]</span></li>
@@ -82,7 +93,7 @@
         </ul>
       </section>
 
-      <section id="Translations" style="margin-top: 40px; margin-bottom: 50px" lang="pl">
+      <section id="Translations" class="chapter" lang="pl">
         <h3>tłumaczenia <span class="sm">(PL)</span></h3>
         <ul>
           <li><a href="tlumaczenia/Ulver-LittleBlueBird.txt">Ulver - Niebieska Ptaszyna</a> <span class="sm">[Ulver - Little Blue Bird]</span></li>
@@ -95,14 +106,24 @@
 
       <footer>
         <h3>social</h3>
-        <p>
-          <a href="https://diasp.eu/people/f5993ca0ab3501325af05404a6b20780" rel="noreferrer noopener" target="_blank">diaspora*</a>
-          &nbsp;
-          <a href="https://pixelfed.social/rain.nikelaos" rel="noreferrer noopener" target="_blank">pixelfed</a>
-          &nbsp;
-          <a href="https://mastodon.social/@therainwillcome" rel="me noreferrer noopener" target="_blank">mastodon</a>
-        </p>
-        <p style="font-size: 10px; margin-top: 20px; margin-bottom: 20px">&copy; TheRainWillCome 2018-2021. All rights reserved.</p>
+          
+        <section>
+          <ul>
+            <li>
+              <a href="https://diasp.eu/people/f5993ca0ab3501325af05404a6b20780" rel="noreferrer noopener" target="_blank">diaspora*</a>
+            </li>
+            <li>
+              <a href="https://pixelfed.social/rain.nikelaos" rel="noreferrer noopener" target="_blank">pixelfed</a>
+            </li>
+            <li>
+              <a href="https://mastodon.social/@therainwillcome" rel="me noreferrer noopener" target="_blank">mastodon</a>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <p style="font-size: 1.6rem; margin-top: 20px; margin-bottom: 20px">&copy; TheRainWillCome 2018-2021. All rights reserved.</p>
+        </section>
       </footer>
 
     </main>
