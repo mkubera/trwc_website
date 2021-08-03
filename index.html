@@ -1,93 +1,214 @@
-  <!DOCTYPE html>
-  <html lang="en" dir="ltr">
-
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="silence the mind, and the heart will sing">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="silence the mind, and the heart will sing"
+    />
     <title>TheRainWillCome</title>
 
-    <link rel="canonical" href="https://therainwillco.me"/>
+    <link rel="canonical" href="https://therainwillco.me" />
 
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@trwc_stories">
-    <meta name="twitter:title" content="TheRainWillCome">
-    <meta name="twitter:description" content="silence the mind, and the heart will sing">
-    <meta name="twitter:image" content="https://pbs.twimg.com/profile_images/1013208077196292107/N91UkUls_400x400.jpg">
-    <meta name="twitter:image:alt" content="TheRainWillCome logo">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@trwc_stories" />
+    <meta name="twitter:title" content="TheRainWillCome" />
+    <meta
+      name="twitter:description"
+      content="silence the mind, and the heart will sing"
+    />
+    <meta
+      name="twitter:image"
+      content="https://pbs.twimg.com/profile_images/1013208077196292107/N91UkUls_400x400.jpg"
+    />
+    <meta name="twitter:image:alt" content="TheRainWillCome logo" />
 
     <style media="screen">
-      *, *:after, *:before {box-sizing: border-box;}
-      html{font-size:62.5%;}
-      body { background-color: #eeece9; text-align: center; font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;}
-      h1,h2,h3,h4,h5,h6{margin: 0;}
-      a {color: #000; text-decoration: none;}
-      a:hover {color: #777;}
-      img{max-width: 100%;height: auto;}
-      #Works a:after, footer a:after{
+      *,
+      *:after,
+      *:before {
+        box-sizing: border-box;
+      }
+      html {
+        font-size: 62.5%;
+      }
+      body {
+        background-color: #eeece9;
+        text-align: center;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        margin: 0;
+      }
+      a {
+        color: #000;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #777;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      #Works a:after,
+      footer a:after {
         content: url(https://en.wikipedia.org/w/skins/Vector/resources/skins.vector.styles/images/external-link-ltr-icon.svg?b4b84);
         padding-left: 2px;
         display: inline;
       }
-      ul{padding:0;list-style-type: none;}
-      li{margin-bottom: 10px;}
-      section{padding-left: 5%;padding-right: 5%;}
-      .logo{padding: 0;margin-bottom: 2rem;}
-      .chapter{margin-top: 40px; margin-bottom: 50px}
-      .tagline{max-width: 30rem;margin: 0 auto;padding: 2rem 0;border-radius: .5rem;}
-      .tagline h2{color: #555; font-size: 2.4rem; font-weight: 400;}
-      .chapter h3, footer h3{width: 200px; margin: 0 auto 2rem auto; padding: 5px 0; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc;color: #555; font-size: 2.2rem; font-weight: 400; letter-spacing: 1px; }
-      .chapter ul li, footer ul li{font-size: 2rem; font-weight: 200; color:#000;}
-      .chapter h3 .sm{display: inline; font-family: monospace; font-size: 1.8rem; font-weight: 200; color: #444;}
-      .chapter li .sm{font-size: 1.6rem;}
-      .date{font-size: 1.6rem; color: #84c962}
-      .flex{display: flex;flex-wrap: wrap;justify-content: space-around;width: 100%;margin:0 auto;}
-      @media screen and (min-width: 800px) { .flex{width: 80%;}}
+      ul {
+        padding: 0;
+        list-style-type: none;
+      }
+      li {
+        margin-bottom: 10px;
+      }
+      section {
+        padding-left: 5%;
+        padding-right: 5%;
+      }
+      .logo {
+        padding: 0;
+        margin-bottom: 2rem;
+      }
+      .tagline {
+        max-width: 30rem;
+        margin: 0 auto;
+        padding: 2rem 0;
+        border-radius: 0.5rem;
+      }
+      .tagline h2 {
+        color: #555;
+        font-size: 2.4rem;
+        font-weight: 400;
+      }
+      .chapters {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
+        margin: 0 auto;
+      }
+      .chapter {
+        margin-top: 40px;
+        margin-bottom: 50px;
+      }
+      .chapter h3,
+      footer h3 {
+        width: 200px;
+        margin: 0 auto 2rem auto;
+        padding: 5px 0;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        color: #555;
+        font-size: 2.2rem;
+        font-weight: 400;
+        letter-spacing: 1px;
+      }
+      .chapter ul li,
+      footer ul li {
+        font-size: 2rem;
+        font-weight: 200;
+        color: #000;
+      }
+      .chapter h3 .sm {
+        display: inline;
+        font-family: monospace;
+        font-size: 1.8rem;
+        font-weight: 200;
+        color: #444;
+      }
+      .chapter li .sm {
+        font-size: 1.6rem;
+      }
+      .date {
+        font-size: 1.6rem;
+        color: #84c962;
+      }
+      @media screen and (min-width: 800px) {
+        .chapters {
+          width: 80%;
+        }
+      }
     </style>
   </head>
 
   <body>
-
     <main>
-
       <header>
         <section class="logo" aria-label="Logo">
           <picture>
-            <source 
-              type="image/webp" 
-              srcset="images/rain_logo.webp">
-            <img 
-              src="images/rain_logo.svg" 
+            <source type="image/webp" srcset="images/rain_logo.webp" />
+            <img
+              src="images/rain_logo.svg"
               alt="The Rain Will Come logo. Black drops of rain on a white background in a black circle."
-              width="600" 
-              height="362" 
-              loading="lazy">
+              width="600"
+              height="362"
+              loading="lazy"
+            />
           </picture>
         </section>
 
-        <h1 style="display:none">THERAINWILLCOME</h1>
+        <h1 style="display: none">THERAINWILLCOME</h1>
 
         <section class="chapter tagline">
           <h2>
-            silence the mind,<br>
+            silence the mind,<br />
             and the heart will sing
           </h2>
         </section>
       </header>
 
-      <div class="flex">
+      <div class="chapters">
+        <section id="Music" class="chapter">
+          <h3>music</h3>
+          <iframe
+            style="border: 0; width: 350px; height: 522px"
+            src="https://bandcamp.com/EmbeddedPlayer/album=1719291015/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/"
+            seamless
+            ><a
+              href="https://therainwillcome.bandcamp.com/album/surrealist-first-design-this-is-not-the-sky-and-the-earth"
+              >[Surrealist First Design] This is not the sky and the earth by
+              rain niké-laos (therainwillcome)</a
+            ></iframe
+          >
+        </section>
         <section id="Works" class="chapter">
           <h3>works</h3>
           <ul>
             <li>
-              <a href="https://gumroad.com/therainwillcome" target="_blank" rel="noopener noreferrer">Books</a>
+              <a
+                href="https://gumroad.com/therainwillcome"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Books</a
+              >
             </li>
             <li>
-              <a href="https://tapas.io/therainwillcome" target="_blank" rel="noopener noreferrer">Comics</a>
+              <a
+                href="https://tapas.io/therainwillcome"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Comics</a
+              >
             </li>
             <li>
-              <a href="https://thewritelaunch.com/2017/08/a-boy-who-was-an-orca" target="_blank" rel="noopener noreferrer">A Boy Who Was an Orca</a> <span class="sm">[a short story]</span>
+              <a
+                href="https://thewritelaunch.com/2017/08/a-boy-who-was-an-orca"
+                target="_blank"
+                rel="noopener noreferrer"
+                >A Boy Who Was an Orca</a
+              >
+              <span class="sm">[a short story]</span>
             </li>
           </ul>
         </section>
@@ -95,72 +216,232 @@
         <section id="ShortFormsEN" class="chapter">
           <h3>short forms</h3>
           <ul>
-            <li><a href="short_forms/skeletons.txt">Skeletons</a> <span class="date">(19.04.2021)</span></li>
+            <li>
+              <a href="short_forms/skeletons.txt">Skeletons</a>
+              <span class="date">(19.04.2021)</span>
+            </li>
           </ul>
         </section>
 
         <section id="ShortFormsPL" class="chapter" lang="pl">
           <h3>krótkie formy <span class="sm">(PL)</span></h3>
           <ul>
-            <li><a href="krotkie_formy/jan_zgorykrwiaplynacy.txt">Jan Zgórykrwiąpłynący</a> <span class="sm">[mini-opowiadanie]</span></li>
-            <li><a href="krotkie_formy/akademicki_wampir.txt">Akademicki Wampir</a> <span class="sm">[nano-opowiadanie]</span></li>
+            <li>
+              <a href="krotkie_formy/jan_zgorykrwiaplynacy.txt"
+                >Jan Zgórykrwiąpłynący</a
+              >
+              <span class="sm">[mini-opowiadanie]</span>
+            </li>
+            <li>
+              <a href="krotkie_formy/akademicki_wampir.txt"
+                >Akademicki Wampir</a
+              >
+              <span class="sm">[nano-opowiadanie]</span>
+            </li>
           </ul>
         </section>
 
-      <section id="Translations" class="chapter" lang="pl">
-        <h3>tłumaczenia <span class="sm">(PL)</span></h3>
-        <ul>
-          <li><a href="tlumaczenia/BlastedMechanism-SoSpacedOut.txt">Bziknięty Mechanizm - Tak Ogłupiała</a> <span class="sm">[Blasted Mechanism - So Spaced Out]</span> <span class="date">(23.05.2021)</span></li>
-          <li><a href="tlumaczenia/Moonspell-Angelizer.txt">KsiężycoweZaklęcie - Aniołujący</a> <span class="sm">[Moonspell - Angelizer]</span> <span class="date">(17.05.2021)</span></li>
-          <li><a href="tlumaczenia/DavidSylvianRyuichiSakamoto-WorldCitizen.txt">David Sylvian / Ryuichi Sakamoto - Obywatel Świata</a> <span class="sm">[David Sylvian / Ryuichi Sakamoto - World Citizen]</span> <span class="date">(06.05.2021)</span></li>
-          <li><a href="tlumaczenia/Antimatter-Monochrome.txt">Antymateria - Monochromia</a> <span class="sm">[Antimatter - Monochrome]</span> <span class="date">(30.04.2021)</span></li>
-          <li><a href="tlumaczenia/SusumuHirasawa-AStrangeNightOfOmnificence.txt">Susumu Hirasawa - Dziwna Noc Wszechstworzenia </a> <span class="sm">[Susumu Hirasawa - A Strange Night Of Omnificence]</span> <span class="date">(30.04.2021)</span></li>
-          <li><a href="tlumaczenia/Antimatter-Dream.txt">Antymateria - Sen</a> <span class="sm">[Antimatter - Dream]</span> <span class="date">(24.04.2021)</span></li>
-          <li><a href="tlumaczenia/Antimatter-APlaceInTheSun.txt">Antymateria - Miejsce w Słońcu</a> <span class="sm">[Antimatter - A Place In The Sun]</span> <span class="date">(22.04.2021)</span></li>
-          <li><a href="tlumaczenia/ExitNorth-AnotherChance.txt">Exit North - Kolejna Szansa</a> <span class="sm">[Exit North - Another Chance]</span> <span class="date">(20.04.2021)</span></li>
-          <li><a href="tlumaczenia/Moonspell-Adaptables.txt">KsiężycoweZaklęcie - Przystosowalni</a> <span class="sm">[Moonspell - Adaptables]</span> <span class="date">(19.04.2021)</span></li>
-          <li><a href="tlumaczenia/BlastedMechanism-We.txt">Bziknięty Mechanizm - My</a> <span class="sm">[Blasted Mechanism - We]</span> <span class="date">(11.04.2021)</span></li>
-          <li><a href="tlumaczenia/DeadCanDance-TellMeAboutTheForest.txt">Martwi Mogą Tańczyć - Powiedz mi o lesie (który niegdyś zwałaś domem)</a> <span class="sm">[Dead Can Dance - Tell me about the forest (You once called home)]</span> <span class="date">(10.04.2021)</span></li>
-          <li><a href="tlumaczenia/IngridChavez-PathOfRain.txt">Ingrid Chavez - Ścieżka Deszczu</a> <span class="sm">[Ingrid Chavez - Path Of Rain]</span> <span class="date">(10.04.2021)</span></li>
-          <li><a href="tlumaczenia/Moonspell-Ghostsong.txt">KsiężycoweZaklęcie - Pieśń duchów</a> <span class="sm">[Moonspell - Ghostsong]</span> <span class="date">(10.04.2021)</span></li>
-          <li><a href="tlumaczenia/IngridChavez-Backroads.txt">Ingrid Chavez - Manowce</a> <span class="sm">[Ingrid Chavez - Backroads]</span> <span class="date">(08.04.2021)</span></li>
-          <li><a href="tlumaczenia/Moonspell-Firewalking.txt">KsiężycoweZaklęcie - Próba ognia</a> <span class="sm">[Moonspell - Firewalking]</span> <span class="date">(08.04.2021)</span></li>
-          <li><a href="tlumaczenia/Moonspell-ThanTheSerpentsInMyHands.txt">KsiężycoweZaklęcie - Niż Węże w Mych Rękach</a> <span class="sm">[Moonspell - Than The Serpents In My Hands]</span> <span class="date">(08.04.2021)</span></li>
-          <li><a href="tlumaczenia/Moonspell-Dekadence.txt">KsiężycoweZaklęcie - Dekadencya</a> <span class="sm">[Moonspell - Dekadence]</span> <span class="date">(08.04.2021)</span></li>
-          <li><a href="tlumaczenia/Ulver-LittleBlueBird.txt">Ulver - Niebieska Ptaszyna</a> <span class="sm">[Ulver - Little Blue Bird]</span></li>
-          <li><a href="tlumaczenia/SystemOfADown-Toxicity.txt">System of a Down - Toksyczność</a> <span class="sm">[System of a Down - Toxicity]</span></li>
-          <li><a href="tlumaczenia/Arcturus-NightmareHeaven.txt">Arcturus - Koszmarne Niebo</a> <span class="sm">[Arcturus - Nightmare Heaven]</span></li>
-          <li><a href="tlumaczenia/Ulver-Vowels.txt">Ulver - Samogłoski</a> <span class="sm">[Ulver - Vowels]</span></li>
-          <li><a href="tlumaczenia/NineHorses-TheLibrarian.txt">Dziewięć Koni - Bibliotekarz</a> <span class="sm">[Nine Horses - The Librarian]</span></li>
-        </ul>
-      </section>
-            </div>
-
+        <section id="Translations" class="chapter" lang="pl">
+          <h3>tłumaczenia <span class="sm">(PL)</span></h3>
+          <ul>
+            <li>
+              <a href="tlumaczenia/BlastedMechanism-SoSpacedOut.txt"
+                >Bziknięty Mechanizm - Tak Ogłupiała</a
+              >
+              <span class="sm">[Blasted Mechanism - So Spaced Out]</span>
+              <span class="date">(23.05.2021)</span>
+            </li>
+            <li>
+              <a href="tlumaczenia/Moonspell-Angelizer.txt"
+                >KsiężycoweZaklęcie - Aniołujący</a
+              >
+              <span class="sm">[Moonspell - Angelizer]</span>
+              <span class="date">(17.05.2021)</span>
+            </li>
+            <li>
+              <a href="tlumaczenia/DavidSylvianRyuichiSakamoto-WorldCitizen.txt"
+                >David Sylvian / Ryuichi Sakamoto - Obywatel Świata</a
+              >
+              <span class="sm"
+                >[David Sylvian / Ryuichi Sakamoto - World Citizen]</span
+              >
+              <span class="date">(06.05.2021)</span>
+            </li>
+            <li>
+              <a href="tlumaczenia/Antimatter-Monochrome.txt"
+                >Antymateria - Monochromia</a
+              >
+              <span class="sm">[Antimatter - Monochrome]</span>
+              <span class="date">(30.04.2021)</span>
+            </li>
+            <li>
+              <a
+                href="tlumaczenia/SusumuHirasawa-AStrangeNightOfOmnificence.txt"
+                >Susumu Hirasawa - Dziwna Noc Wszechstworzenia
+              </a>
+              <span class="sm"
+                >[Susumu Hirasawa - A Strange Night Of Omnificence]</span
+              >
+              <span class="date">(30.04.2021)</span>
+            </li>
+            <li>
+              <a href="tlumaczenia/Antimatter-Dream.txt">Antymateria - Sen</a>
+              <span class="sm">[Antimatter - Dream]</span>
+              <span class="date">(24.04.2021)</span>
+            </li>
+            <li>
+              <a href="tlumaczenia/Antimatter-APlaceInTheSun.txt"
+                >Antymateria - Miejsce w Słońcu</a
+              >
+              <span class="sm">[Antimatter - A Place In The Sun]</span>
+              <span class="date">(22.04.2021)</span>
+            </li>
+            <li>
+              <a href="tlumaczenia/ExitNorth-AnotherChance.txt"
+                >Exit North - Kolejna Szansa</a
+              >
+              <span class="sm">[Exit North - Another Chance]</span>
+              <span class="date">(20.04.2021)</span>
+            </li>
+            <li>
+              <a href="tlumaczenia/Moonspell-Adaptables.txt"
+                >KsiężycoweZaklęcie - Przystosowalni</a
+              >
+              <span class="sm">[Moonspell - Adaptables]</span>
+              <span class="date">(19.04.2021)</span>
+            </li>
+            <li>
+              <a href="tlumaczenia/BlastedMechanism-We.txt"
+                >Bziknięty Mechanizm - My</a
+              >
+              <span class="sm">[Blasted Mechanism - We]</span>
+              <span class="date">(11.04.2021)</span>
+            </li>
+            <li>
+              <a href="tlumaczenia/DeadCanDance-TellMeAboutTheForest.txt"
+                >Martwi Mogą Tańczyć - Powiedz mi o lesie (który niegdyś zwałaś
+                domem)</a
+              >
+              <span class="sm"
+                >[Dead Can Dance - Tell me about the forest (You once called
+                home)]</span
+              >
+              <span class="date">(10.04.2021)</span>
+            </li>
+            <li>
+              <a href="tlumaczenia/IngridChavez-PathOfRain.txt"
+                >Ingrid Chavez - Ścieżka Deszczu</a
+              >
+              <span class="sm">[Ingrid Chavez - Path Of Rain]</span>
+              <span class="date">(10.04.2021)</span>
+            </li>
+            <li>
+              <a href="tlumaczenia/Moonspell-Ghostsong.txt"
+                >KsiężycoweZaklęcie - Pieśń duchów</a
+              >
+              <span class="sm">[Moonspell - Ghostsong]</span>
+              <span class="date">(10.04.2021)</span>
+            </li>
+            <li>
+              <a href="tlumaczenia/IngridChavez-Backroads.txt"
+                >Ingrid Chavez - Manowce</a
+              >
+              <span class="sm">[Ingrid Chavez - Backroads]</span>
+              <span class="date">(08.04.2021)</span>
+            </li>
+            <li>
+              <a href="tlumaczenia/Moonspell-Firewalking.txt"
+                >KsiężycoweZaklęcie - Próba ognia</a
+              >
+              <span class="sm">[Moonspell - Firewalking]</span>
+              <span class="date">(08.04.2021)</span>
+            </li>
+            <li>
+              <a href="tlumaczenia/Moonspell-ThanTheSerpentsInMyHands.txt"
+                >KsiężycoweZaklęcie - Niż Węże w Mych Rękach</a
+              >
+              <span class="sm"
+                >[Moonspell - Than The Serpents In My Hands]</span
+              >
+              <span class="date">(08.04.2021)</span>
+            </li>
+            <li>
+              <a href="tlumaczenia/Moonspell-Dekadence.txt"
+                >KsiężycoweZaklęcie - Dekadencya</a
+              >
+              <span class="sm">[Moonspell - Dekadence]</span>
+              <span class="date">(08.04.2021)</span>
+            </li>
+            <li>
+              <a href="tlumaczenia/Ulver-LittleBlueBird.txt"
+                >Ulver - Niebieska Ptaszyna</a
+              >
+              <span class="sm">[Ulver - Little Blue Bird]</span>
+            </li>
+            <li>
+              <a href="tlumaczenia/SystemOfADown-Toxicity.txt"
+                >System of a Down - Toksyczność</a
+              >
+              <span class="sm">[System of a Down - Toxicity]</span>
+            </li>
+            <li>
+              <a href="tlumaczenia/Arcturus-NightmareHeaven.txt"
+                >Arcturus - Koszmarne Niebo</a
+              >
+              <span class="sm">[Arcturus - Nightmare Heaven]</span>
+            </li>
+            <li>
+              <a href="tlumaczenia/Ulver-Vowels.txt">Ulver - Samogłoski</a>
+              <span class="sm">[Ulver - Vowels]</span>
+            </li>
+            <li>
+              <a href="tlumaczenia/NineHorses-TheLibrarian.txt"
+                >Dziewięć Koni - Bibliotekarz</a
+              >
+              <span class="sm">[Nine Horses - The Librarian]</span>
+            </li>
+          </ul>
+        </section>
+      </div>
 
       <footer>
         <h3>social</h3>
-          
+
         <section>
           <ul>
             <li>
-              <a href="https://diasp.eu/people/f5993ca0ab3501325af05404a6b20780" rel="noreferrer noopener" target="_blank">diaspora*</a>
+              <a
+                href="https://diasp.eu/people/f5993ca0ab3501325af05404a6b20780"
+                rel="noreferrer noopener"
+                target="_blank"
+                >diaspora*</a
+              >
             </li>
             <li>
-              <a href="https://pixelfed.social/rain.nikelaos" rel="noreferrer noopener" target="_blank">pixelfed</a>
+              <a
+                href="https://pixelfed.social/rain.nikelaos"
+                rel="noreferrer noopener"
+                target="_blank"
+                >pixelfed</a
+              >
             </li>
             <li>
-              <a href="https://mastodon.social/@therainwillcome" rel="me noreferrer noopener" target="_blank">mastodon</a>
+              <a
+                href="https://mastodon.social/@therainwillcome"
+                rel="me noreferrer noopener"
+                target="_blank"
+                >mastodon</a
+              >
             </li>
           </ul>
         </section>
 
         <section>
-          <p style="font-size: 1.6rem; margin-top: 20px; margin-bottom: 20px">&copy; TheRainWillCome 2018-2021. All rights reserved.</p>
+          <p style="font-size: 1.6rem; margin-top: 20px; margin-bottom: 20px">
+            &copy; TheRainWillCome 2018-2021. All rights reserved.
+          </p>
         </section>
       </footer>
-
     </main>
-
   </body>
-
-  </html>
+</html>
