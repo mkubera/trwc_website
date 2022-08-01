@@ -39,6 +39,10 @@
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
           Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
       }
+      main {
+        display: flex;
+        justify-content: center;
+      }
       h1,
       h2,
       h3,
@@ -69,24 +73,35 @@
         padding-left: 5%;
         padding-right: 5%;
       }
+      header {
+        width: 40rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 4rem;
+        background-color: #ddd;
+      }
       .logo {
-        margin: 2rem 0;
         padding: 0;
+        width: 200px;
       }
       .tagline {
-        max-width: 30rem;
-        margin: 0 auto;
-        padding: 2rem 0;
-        border-radius: 0.5rem;
+        margin: 1.4rem 0 !important;
       }
       .tagline h2 {
         color: #555;
-        font-size: 2.4rem;
+        font-size: 1.6rem;
         font-weight: 400;
+        font-style: italic;
+      }
+      .header__description {
+        margin-top: 2rem;
+        font-size: 1.4rem;
       }
       .chapters {
-        display: flex;
         width: 100%;
+        display: flex;
+        flex-direction: column;
         margin: 0 auto;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -138,7 +153,6 @@
         background-color: #2a2a2a;
         color: #fff;
         font-size: 1.6rem;
-        margin: 20px 0;
       }
       @media screen and (min-width: 800px) {
         .chapters {
@@ -171,6 +185,28 @@
             silence the mind,<br />
             and the heart will sing
           </h2>
+        </section>
+
+        <section class="header__description">
+          <h3>about</h3>
+          Experiments in sacred and alchemical soundscapes, images and words.
+          Since 2017.
+        </section>
+        <section class="header__description">
+          <h3>news</h3>
+          <ul>
+            <li>news 1</li>
+            <li>news 2</li>
+            <li>news 3</li>
+          </ul>
+        </section>
+        <section class="header__description">
+          <h3>jump to</h3>
+          <ul>
+            <li>music</li>
+            <li>words</li>
+            <li>images</li>
+          </ul>
         </section>
       </header>
 
@@ -491,12 +527,9 @@
             </li>
           </ul>
         </section>
-      </div>
 
-      <footer>
-        <h3>social</h3>
-
-        <section>
+        <section class="chapter">
+          <h3>social</h3>
           <ul class="socmed-links">
             <li>
               <a
@@ -550,11 +583,13 @@
             </li>
           </ul>
         </section>
-
-        <section class="footer__copyright">
-          &copy; TheRainWillCome 2017-2022. All rights reserved.
-        </section>
-      </footer>
+      </div>
     </main>
+
+    <footer>
+      <section class="footer__copyright">
+        &copy; TheRainWillCome 2017-2022. All rights reserved.
+      </section>
+    </footer>
   </body>
 </html>
