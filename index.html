@@ -6,29 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta
       name="description"
-      content="Experiments in sacred and alchemical soundscapes, images and words. Since 2017."
-    />
+      content="Experiments in sacred and alchemical soundscapes, images and words. Since 2017." />
     <title>therainwillcome</title>
     <link rel="canonical" href="https://therainwillco.me" />
     <meta name="og:title" content="therainwillcome" />
     <meta
       name="og:description"
-      content="Experiments in sacred and alchemical soundscapes, images and words. Since 2017."
-    />
+      content="Experiments in sacred and alchemical soundscapes, images and words. Since 2017." />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://therainwillco.me" />
     <meta
       property="og:image"
-      content="https://therainwillco.me/images/rain_logo.png"
-    />
+      content="https://therainwillco.me/images/rain_logo.png" />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="600" />
     <meta property="og:image:height" content="435" />
     <meta property="og:image:alt" content="therainwillcome logo" />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
-    />
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />
     <style media="screen">
       html {
         font-size: 62.5%;
@@ -41,6 +37,7 @@
       }
       main {
         display: flex;
+        flex-direction: column;
         justify-content: center;
       }
       h1,
@@ -74,12 +71,23 @@
         padding-right: 5%;
       }
       header {
-        width: 40rem;
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
         padding: 4rem;
         background-color: #ddd;
+      }
+      @media only screen and (min-width: 800px) {
+        main {
+          flex-direction: row;
+        }
+        header {
+          width: 40rem;
+        }
+        .chapters {
+          width: 100%;
+        }
       }
       .logo {
         padding: 0;
@@ -103,6 +111,7 @@
         display: flex;
         flex-direction: column;
         margin: 0 auto;
+        padding: 1rem;
         flex-wrap: wrap;
         justify-content: space-around;
       }
@@ -170,15 +179,15 @@
       <header>
         <section class="logo" aria-label="Logo">
           <img
-            src="images/rain_logo.svg"
-            alt="The Rain Will Come logo. Black drops of rain on a white background in a black circle."
+            src="./images/rain_logo.svg"
+            alt="therainwillcome logo. Black drops of rain on a white background in a black circle."
             width="600"
             height="362"
-            loading="lazy"
-          />
+            loading="lazy" />
+          <h1>therainwillcome</h1>
         </section>
 
-        <h1 class="hidden">THERAINWILLCOME</h1>
+        <!-- <h1 class="hidden">THERAINWILLCOME</h1> -->
 
         <section class="chapter tagline">
           <h2>
@@ -535,26 +544,22 @@
               <a
                 href="https://therainwillcome.bandcamp.com/follow_me"
                 rel="noreferrer noopener"
-                target="_blank"
-              >
+                target="_blank">
                 <img
                   src="./images/bc-btns/bandcamp-button-bc-circle-aqua-32.png"
                   alt="bandcamp"
-                  srcset=""
-                />
+                  srcset="" />
               </a>
             </li>
             <li>
               <a
                 href="https://audius.co/therainwillcome"
                 rel="noreferrer noopener"
-                target="_blank"
-              >
+                target="_blank">
                 <img
                   src="./images/audius-icon_32x32.png"
                   alt="audius"
-                  srcset=""
-                />
+                  srcset="" />
               </a>
             </li>
             <li>
